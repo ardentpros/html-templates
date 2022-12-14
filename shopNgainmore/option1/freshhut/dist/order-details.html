@@ -1,0 +1,672 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshHut - Multipurpose Ecommerce HTML Template</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+
+    <!--Preloader-->
+    <div class="preloader fixed inset-0 bg-white z-50 opacity-100 flex items-center justify-center">
+        <img src="img/preloader.gif" alt="" class="h-16">
+    </div>
+    <!--Preloader end-->
+    
+    <!-- Mobile Menu Part Start Here -->
+    <div class="menu-area fixed inset-0 bg-black bg-opacity-50 z-50 invisible opacity-0 transition duration-500">
+        <div class="menu-content bg-gray-100 h-full absolute -left-full top-0 w-80 transition-all duration-500 overflow-y-auto">
+            <div class="p-4 bg-primary text-white text-lg flex items-center justify-between space-x-2 sticky top-0 mb-3">
+                <span class="cursor-pointer"><i class="las la-bars"></i></span>
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="logo" class="w-24">
+                </a>
+                <button id="menu-close" class="text-2xl hover:bg-primary-dark">
+                    <span><i class="las la-times"></i></span>
+                </button>
+            </div>
+            <div class="mobile-menu">
+                <nav>
+                    <ul class="ml-5 lg:flex justify-center lg:space-x-10">
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Shop</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Butter & Eggs</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Fresh Meat</a>
+                        </li>
+                        <li class="group relative hover:text-secondary">
+                            <a href="#" class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300">Pages</a>
+                            <span class="absolute -right-5 top-[29px] text-xs text-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </span>
+                            <!-- Sub-Menu -->
+                            <ul class="pl-5 hidden group-hover:block">
+                                <li>
+                                    <a href="change-pass.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                        Change Password
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="checkout.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                        Checkout
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="order-details.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                        Order Details</a>
+                                </li>
+                                <li>
+                                    <a href="forgot-password.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Forgot
+                                        Password</a>
+                                </li>
+                                <li>
+                                    <a href="my-account.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">My
+                                        Account</a>
+                                </li>
+                                <li>
+                                    <a href="order-com.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Order
+                                        Complete</a>
+                                </li>
+                                <li>
+                                    <a href="error.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Error/404</a>
+                                </li>
+                                <li>
+                                    <a href="productview.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Product
+                                        View</a>
+                                </li>
+                                <li>
+                                    <a href="register.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Register</a>
+                                </li>
+                                <li>
+                                    <a href="shop-cart.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Shop
+                                        Cart</a>
+                                </li>
+                                <li>
+                                    <a href="tracking.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Tracking</a>
+                                </li>
+                                <li>
+                                    <a href="blog-grid.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Blog
+                                        Grid</a>
+                                </li>
+                                <li>
+                                    <a href="blog-view.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Blog
+                                        View</a>
+                                </li>
+                                <li>
+                                    <a href="my-order.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">My
+                                        Order</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="about.html">about us</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="faq.html">Faq</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu Part End Here -->
+
+    <!-- Header Area Start Here -->
+    <header>
+        <div class="header-top bg-white py-3">
+            <div class="container md:flex md:justify-between md:items-center">
+                <!-- Header Top Left -->
+                <div class="header-top-left text-center md:flex text-secondary-light border-b md:border-b-0 mb-2 md:mb-0 pb-2 md:pb-0">
+                    <button class="text-md border-r border-secondary-light pr-5 hover:text-primary-dark ease-in-out duration-300">Language</button>
+                    <button class="text-md ml-6 hover:text-primary-dark ease-in-out duration-300">Currency</button>
+                </div>
+                <!-- Header Top Right -->
+                <div class="header-top-right flex justify-center">
+                    <div class="social-icon text-secondary-light">
+                        <ul class="flex space-x-4 text-md">
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-behance"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End Here -->
+
+    <!-- Logo Area Start Here -->
+    <div class="logo-area sticky lg:static top-0 z-20 py-2 bg-primary">
+        <div class="container md:flex md:justify-between md:items-center">
+            <!-- Logo Left -->
+            <div class="logo-left w-64 m-5 md:mx-0 relative flex items-center mx-auto border-b p-1">
+                <input class="w-full text-white placeholder:text-white focus:outline-none bg-transparent" type="text" placeholder="Search Here">
+                <button class="text-white bg-primary font-bold capitalize absolute right-0 top-0 bottom-0 flex items-center hover:text-primary-dark ease-in-out duration-300">
+                    <span class="text-xl"><i class="las la-search"></i></span>
+                </button>
+            </div>
+            <!-- Logo Icon -->
+            <div class="logo-icon hidden md:block items-center text-white italic text-2xl">
+                <div class="menu-bar text-white flex items-center text-2xl mr-2">
+                    <span class="lg:hidden cursor-pointer menu-open mr-2"><i class="las la-bars"></i></span>
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="logo" class="w-36">
+                    </a>
+                </div>
+
+            </div>
+            <div class="flex justify-between">
+                <!-- Logo Icon -->
+                <div class="logo-icon md:hidden flex items-center text-white italic text-2xl">
+                    <div class="menu-bar text-white flex items-center text-2xl mr-2">
+                        <span class="menu-open cursor-pointer mr-2"><i class="las la-bars"></i></span>
+                        <a href="index.html">
+                            <img src="img/logo.svg" alt="logo" class="w-24">
+                        </a>
+                    </div>
+                </div>
+                <!-- Logo Right -->
+                <div class="logo-right space-x-6">
+                    <div class="logo-right-content flex items-center">
+                        <div class="reg-log hidden lg:block text-md text-white">
+                            <a href="register.html" class="uppercase hover:text-primary-dark ease-in-out duration-300">register</a>
+                            <span>/</span>
+                            <a href="login.html" class="uppercase hover:text-primary-dark ease-in-out duration-300">login</a>
+                        </div>
+                        <div class="lg:hidden flex">
+                            <div class="edit-list text-white mr-3">
+                                <div class="edit-item relative flex items-center gap-x-2">
+                                    <a href="register.html" class="text-2xl hover:text-primary-dark ease-in-out duration-300">
+                                        <i class="las la-edit"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="lock-list text-white mr-3">
+                                <div class="lock-item relative flex items-center gap-x-2">
+                                    <a href="login.html" class="text-2xl hover:text-primary-dark ease-in-out duration-300">
+                                        <i class="las la-lock"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list flex ml-5">
+                            <div class="wish-list text-white mr-3">
+                                <div class="wish-item relative flex items-center cursor-pointer">
+                                    <a href="wishlist.html">
+                                        <span class="text-xl hover:text-primary-dark ease-in-out duration-300"><i class="las la-heart"></i></span>
+                                    </a>
+                                    <span class="text-xs absolute -top-1 -right-3 text-white bg-primary-dark rounded-full h-4 w-4 flex justify-center items-center">0</span>
+                                </div>
+                            </div>
+                            <div class="cart-list text-white">
+                                <div class="wish-item relative flex items-center cursor-pointer ml-2">
+                                    <a href="shop-cart.html">
+                                        <span class="text-xl hover:text-primary-dark ease-in-out duration-300"><i class="las la-cart-plus"></i></span>
+                                    </a>
+                                    <span class="text-xs absolute -top-1 -right-3 bg-primary-dark text-white rounded-full h-4 w-4 flex justify-center items-center">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Logo Area End Here -->
+
+    <!-- Menu Area Start Here -->
+    <div class="menu-area bg-white border-b border-gray-200 sticky top-0 z-20 hidden lg:block">
+        <div class="container">
+            <!-- NAVBAR -->
+            <nav>
+                <ul class="flex justify-center space-x-10">
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Shop</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Butter & Eggs</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Fresh Meat</a>
+                    </li>
+                    <li class="group relative hover:text-secondary">
+                        <a href="#" class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300">Pages</a>
+                        <span class="absolute -right-5 top-[29px] text-xs text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </span>
+                        <!-- Sub-Menu -->
+                        <ul class="absolute top-full left-0 invisible rounded-b-md opacity-0 group-hover:transition-all group-hover:duration-500 mt-4 w-96 py-2 shadow-lg bg-white z-50 group-hover:mt-0 group-hover:opacity-100 group-hover:visible grid grid-cols-2 border-t ">
+                            <li>
+                                <a href="change-pass.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                    Change Password
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkout.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                    Checkout
+                                </a>
+                            </li>
+                            <li>
+                                <a href="order-details.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                    Order Details</a>
+                            </li>
+                            <li>
+                                <a href="forgot-password.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Forgot
+                                    Password</a>
+                            </li>
+                            <li>
+                                <a href="my-account.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">My
+                                    Account</a>
+                            </li>
+                            <li>
+                                <a href="order-com.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Order
+                                    Complete</a>
+                            </li>
+                            <li>
+                                <a href="error.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Error/404</a>
+                            </li>
+                            <li>
+                                <a href="productview.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Product
+                                    View</a>
+                            </li>
+                            <li>
+                                <a href="register.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Register</a>
+                            </li>
+                            <li>
+                                <a href="shop-cart.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Shop
+                                    Cart</a>
+                            </li>
+                            <li>
+                                <a href="tracking.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Tracking</a>
+                            </li>
+                            <li>
+                                <a href="blog-grid.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Blog
+                                    Grid</a>
+                            </li>
+                            <li>
+                                <a href="blog-view.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Blog
+                                    View</a>
+                            </li>
+                            <li>
+                                <a href="my-order.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">My
+                                    Order</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="about.html">about us</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="faq.html">Faq</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Menu Area End Here -->
+    <main>
+        <!-- Order Details Part Start Here -->
+        <section class="details-area bg-white pb-10">
+            <div class="container">
+                <div class="details-head pt-7">
+                    <div class="text-md text-secondary-light">
+                        <a href="index.html" class="capitalize hover:text-primary-dark ease-in-out duration-300">home</a>
+                        <span>/</span>
+                        <a href="order-details.html" class="capitalize hover:text-primary-dark ease-in-out duration-300">Order
+                            Details</a>
+                    </div>
+                </div>
+                <!-- account wrapper -->
+                <div class="mx-auto lg:flex items-start lg:space-x-8 mt-8">
+                    <!-- sidebar-->
+                    <div class="lg:w-1/3 relative">
+                        <!-- profile-->
+                        <div class="py-2 mb-4 flex border rounded-lg items-center justify-between px-4 shadow-md shadow-gray-200">
+                            <div class="flex bg-white items-center">
+                                <a href="#">
+                                    <img class="h-12 w-12 object-cover rounded-full" src="img/my-order/profile.jpg" alt="">
+                                </a>
+                                <div class="pl-4">
+                                    <p class="font-sans text-base text-gray-600">Hello,</p>
+                                    <h4 class="text-lg lg:text-md font-semibold">Mr John</h4>
+                                </div>
+                            </div>
+                            <button id="side-bar" class="w-8 h-8 flex items-center justify-center lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <!-- account setting -->
+                        <div id="wrapper-cart" class="hidden border rounded-lg mt-1 absolute left-0 top-20 bg-white z-10 lg:static lg:block w-80 lg:w-auto px-4 py-4 shadow-md shadow-gray-200">
+
+                            <!-- Manage My Account -->
+                            <div class="border-b border-gray-200 pt-2 pb-3">
+                                <a href="my-account.html" class="block mb-2">
+                                    <h4 class="flex items-center font-semibold text-md xl:text-lg text-secondary hover:text-primary-dark transition duration-200">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"></path>
+                                        </svg>Manage My Account</h4>
+                                </a>
+                                <a href="my-profile-info.html" class="block mb-2 xl:text-lg text-gray-600 pl-8 hover:text-primary-dark transition duration-200">Profile
+                                    Information</a>
+                                <a href="my-manage-address.html" class="block mb-2 xl:text-lg text-gray-600 pl-8 hover:text-primary-dark transition duration-200">Manage
+                                    Address</a>
+                                <a href="change-pass.html" class="block mb-2 xl:text-lg text-gray-600 pl-8 hover:text-primary-dark transition duration-200">Change
+                                    Password</a>
+                            </div>
+                            <!-- My Order History -->
+                            <div class="border-b border-gray-200 py-3">
+                                <a href="my-order.html" class="block mb-2">
+                                    <h4 class="flex items-center font-semibold text-md xl:text-lg text-secondary hover:text-primary-dark transition duration-200">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path>
+                                        </svg>My Order History</h4>
+                                </a>
+                                <a href="return.html" class="block mb-2 xl:text-lg text-gray-600 pl-8 hover:text-primary-dark transition duration-200">My
+                                    Returns</a>
+                                <a href="my-cancel.html" class="block mb-2 xl:text-lg text-gray-600 pl-8 hover:text-primary-dark transition duration-200">My
+                                    Cancellations</a>
+                                <a href="my-review.html" class="block mb-2 xl:text-lg text-gray-600 pl-8 hover:text-primary-dark transition duration-200">My
+                                    Reviews</a>
+                            </div>
+                            <!-- Payments Methods -->
+                            <div class="border-b border-gray-200 py-3">
+                                <a href="payment-method.html" class="block mb-2">
+                                    <h4 class="flex items-center text-md xl:text-lg font-semibold text-secondary hover:text-primary-dark transition duration-200">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+                                        </svg>Payments Methods</h4>
+                                </a>
+                                <a href="voucher.html" class="block mb-2 xl:text-lg text-gray-600 pl-8 hover:text-primary-dark transition duration-200">Voucher</a>
+                            </div>
+                            <!-- My Wishlist -->
+                            <div class="border-b border-gray-200 py-3">
+                                <a href="wishlist.html" class="block mb-2">
+                                    <h4 class="flex items-center text-md xl:text-lg font-semibold text-secondary hover:text-primary-dark transition duration-200">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                                        </svg>My Wishlist</h4>
+                                </a>
+                            </div>
+                            <!-- Log Out -->
+                            <div class="pt-3">
+                                <a href="login.html" class="block ml-1">
+                                    <h4 class="flex items-center text-md xl:text-lg font-semibold text-secondary hover:text-primary-dark transition duration-200 gap-2 group">
+                                        <span class="text-lg group-hover:text-primary-dark text-gray-600"><i class="las la-power-off"></i></span> Log Out</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sidebar end -->
+
+
+                    <!-- view-order -->
+                    <div class="w-full lg:w-3/4">
+                        <div class="shadow px-4 py-6 mb-10">
+                            <h3 class="text-md text-secondary-dark bg-gray-200 p-2 font-medium mb-5">Order Details</h3>
+                            <!-- order-details -->
+                            <div class="order-dat-info md:flex md:justify-between mb-20">
+                                <div class="single-item mb-3">
+                                    <h4 class="text-sm font-medium mb-1">Sold By</h4>
+                                    <p class="text-xs uppercase text-primary font-medium">FreshHut</p>
+                                </div>
+                                <div class="single-item mb-3">
+                                    <h4 class="text-sm font-medium mb-1">Order Number</h4>
+                                    <p class="text-xs uppercase text-secondary-dark font-medium">789ER4S324</p>
+                                </div>
+                                <div class="single-item mb-3">
+                                    <h4 class="text-sm font-medium mb-1">Shipped Date</h4>
+                                    <p class="text-xs uppercase text-secondary-dark font-medium">17 June 2022</p>
+                                </div>
+                                <div class="single-item">
+                                    <a href="my-review-edit.html" class="primary-btn inline-block py-2 px-3">Write A Review</a>
+                                </div>
+                            </div>
+
+                            <!-- cancel processing -->
+                            <div class="mb-16">
+                                <div class="relative">
+                                    <div class="bg-primary mx-auto w-[80%] sm:w-[64%] md:w-[67%] lg:w-[66%] h-[3px] absolute -top-[75%] right-[10%] sm:right-[18%] md:right-[16%] lg:right-[17%]">
+                                    </div>
+                                    <div class="w-full sm:w-[76%] mx-auto flex items-center justify-between gap-2 sm:gap-0 mb-8">
+                                        <!-- processing -->
+                                        <div class="relative">
+                                            <div class="w-4 h-4 bg-primary rounded-full m-auto absolute bottom-[90%] left-[34%] mb-2">
+                                            </div>
+                                            <p class="text-sm font-medium text-gray-600">Processing</p>
+                                        </div>
+
+                                        <!-- Shipped -->
+                                        <div class="relative">
+                                            <div class="w-4 h-4 bg-primary rounded-full m-auto absolute bottom-[90%] left-[34%] mb-2">
+                                            </div>
+                                            <p class="text-sm font-medium text-gray-600">Shipped</p>
+                                        </div>
+
+                                        <!-- Delivered -->
+                                        <div class="relative">
+                                            <div class="w-4 h-4 bg-primary rounded-full m-auto absolute bottom-[90%] left-[34%] mb-2">
+                                            </div>
+                                            <p class="text-sm font-medium text-gray-600">Delivered</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="relative z-10">
+                                    <div class="w-full md:w-[92%] bg-white shadow border md:flex md:justify-between rounded-md py-2 px-3 m-auto">
+                                        <p class="text-sm font-medium text-gray-500">23 Jul 2022.18.56</p>
+                                        <p class="text-sm font-medium text-gray-500">Your package has been delivered.
+                                            Thank you for shopping at FreshHut!</p>
+
+                                    </div>
+                                    <span class="border h-7 w-7 absolute right-[9%] sm:right-[4%] md:right-[15%] -top-[13px] rotate-45 -z-20"></span>
+                                </div>
+                            </div>
+
+                            <!-- product -->
+                            <div class="md:flex items-center">
+                                <div class="flex items-center w-full md:w-1/2 mb-8 md:mb-0">
+                                    <img src="img/order-det.jpg" alt="" class="w-24 h-24">
+                                    <div class="pl-5">
+                                        <a href="shop.html">
+                                            <h4 class="text-md font-medium text-secondary-dark mb-1">Spaghetti with
+                                                Bottarga
+                                            </h4>
+                                        </a>
+                                        <p class="text-sm text-secondary-dark">No Warranty Available</p>
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-1/2 flex flex-wrap items-center justify-between">
+                                    <h5 class="text-md font-medium text-secondary mb-1">$50</h5>
+                                    <h5 class="text-md font-medium text-secondary mb-1">Qty:1</h5>
+                                    <div>
+                                        <h5><a href="return.html" class="text-red-500 font-semibold text-md">RETURN</a>
+                                        </h5>
+                                        <p class="text-sm text-secondary font-medium">Until 24 Sep 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- order-adress -->
+                        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                            <!-- Shipping Address -->
+                            <div class="border shadow-sm rounded-lg  p-6 md:p-4 xl:p-6">
+                                <!-- profile info title -->
+                                <div class="flex justify-between items-center">
+                                    <h4 class="text-xl md:text-lg font-semibold"> Shipping Address </h4>
+                                </div>
+                                <!-- profile info title end -->
+
+                                <!-- profile info cont -->
+                                <div class="mt-4">
+                                    <h5 class="font-medium text-lg">Daniel Nancy</h5>
+                                    <p class="text-secondary-dark text-md block mt-2"> 3890 Ranchview Dr.Richardson,
+                                        Califora </p>
+                                    <a href="tel:+88-2345.6789" class="text-md block mt-2 text-secondary-dark"><span class="mr-2"><i class="las la-phone-volume"></i></span>+88-2345.6789</a>
+                                </div>
+                                <!-- profile info cont end -->
+                            </div>
+                            <!-- Billing Address -->
+                            <div class="border shadow-sm rounded-lg p-6 md:p-4 xl:p-6">
+                                <!-- profile info title -->
+                                <div class="flex justify-between items-center">
+                                    <h4 class="text-xl md:text-lg font-semibold"> Billing Address </h4>
+                                </div>
+                                <!-- profile info title end -->
+
+                                <!-- profile info cont -->
+                                <div class="mt-4">
+                                    <h5 class="font-medium text-lg">Daniel Nancy</h5>
+                                    <p class="text-secondary-dark text-md block mt-2"> 3890 Ranchview Dr.Richardson,
+                                        Califora </p>
+                                    <a href="tel:+88-2345.6789" class="text-md block mt-2 text-secondary-dark"><span class="mr-2"><i class="las la-phone-volume"></i></span>+88-2345.6789</a>
+                                </div>
+                                <!-- profile info cont end -->
+                            </div>
+                            <!-- Total Summary -->
+
+                            <div class="border shadow-sm rounded-lg p-6 md:p-4 xl:p-6">
+                                <!-- profile info title -->
+                                <div class="flex justify-between items-center">
+                                    <h4 class="text-xl md:text-lg font-semibold">Total Summary</h4>
+                                </div>
+                                <!-- profile info title end -->
+
+                                <!-- profile info cont -->
+                                <div class="border-b border-gray-300 pb-4 mb-2">
+                                    <div class="flex justify-between">
+                                        <p class="text-secondary-dark text-md">Subtotal</p>
+                                        <p class="text-secondary-dark text-md">$50</p>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <p class="text-secondary-dark text-md">Shipping Fee</p>
+                                        <p class="text-secondary-dark text-md">$50</p>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between mb-2">
+                                    <p class="text-secondary-dark text-md">Total</p>
+                                    <p class="text-secondary-dark text-md">$80</p>
+                                </div>
+                                <p class="text-secondary-dark text-md">Paid by Cash on Delivery</p>
+                                <!-- profile info cont end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- account wrapper end -->
+            </div>
+        </section>
+
+        <!-- Order Details Part End Here -->
+    </main>
+    <!-- Footer Part Start Here -->
+    <footer>
+        <div class="footer-area pb-10">
+            <div class="container">
+                <div class="footer-menu">
+                    <nav>
+                        <ul class="flex justify-center space-x-6">
+                            <li>
+                                <a class="text-secondary-dark font-medium capitalize my-6 sm:text-lg text-xs inline-block hover:text-primary-dark ease-in-out duration-300" href="index.html">home</a>
+                            </li>
+                            <li>
+                                <a class="text-secondary-dark font-medium capitalize my-6 sm:text-lg text-xs inline-block hover:text-primary-dark ease-in-out duration-300" href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a class="text-secondary-dark font-medium capitalize my-6 sm:text-lg text-xs inline-block hover:text-primary-dark ease-in-out duration-300" href="return.html">Return</a>
+                            </li>
+                            <li>
+                                <a class="text-secondary-dark font-medium capitalize my-6 sm:text-lg text-xs inline-block hover:text-primary-dark ease-in-out duration-300" href="contact.html">Contact Us</a>
+                            </li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-icon flex justify-center">
+                    <div class="social-icon text-secondary-light">
+                        <ul class="flex space-x-4 text-lg">
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-behance"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p class="mt-8 text-center text-base text-secondary-light">Copyright &copy; 2022 Programming Kit,
+                        Inc. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Part End Here -->
+    <script src="js/script.js"></script>
+    <script>
+        // Side-Bar Start Here
+        var sideBar = document.getElementById('side-bar')
+        var wrapperCart = document.getElementById('wrapper-cart')
+
+        let issideBar = false
+        sideBar.addEventListener('click', function () {
+            if (issideBar) {
+                wrapperCart.classList.add('hidden')
+                issideBar = false
+            } else {
+                wrapperCart.classList.remove('hidden')
+                issideBar = true
+            }
+        })
+        // Side-Bar End Here  
+    </script>
+</body>
+
+</html>
