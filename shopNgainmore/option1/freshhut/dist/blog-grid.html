@@ -1,0 +1,707 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshHut - Multipurpose Ecommerce HTML Template</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+
+    <!--Preloader-->
+    <div class="preloader fixed inset-0 bg-white z-50 opacity-100 flex items-center justify-center">
+        <img src="img/preloader.gif" alt="" class="h-16">
+    </div>
+    <!--Preloader end-->
+    
+    <!-- Mobile Menu Part Start Here -->
+    <div class="menu-area fixed inset-0 bg-black bg-opacity-50 z-50 invisible opacity-0 transition duration-500">
+        <div class="menu-content bg-gray-100 h-full absolute -left-full top-0 w-80 transition-all duration-500 overflow-y-auto">
+            <div class="p-4 bg-primary text-white text-lg flex items-center justify-between space-x-2 sticky top-0 mb-3">
+                <span class="cursor-pointer"><i class="las la-bars"></i></span>
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="logo" class="w-24">
+                </a>
+                <button id="menu-close" class="text-2xl hover:bg-primary-dark">
+                    <span><i class="las la-times"></i></span>
+                </button>
+            </div>
+            <div class="mobile-menu">
+                <nav>
+                    <ul class="ml-5 lg:flex justify-center lg:space-x-10">
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Shop</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Butter & Eggs</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Fresh Meat</a>
+                        </li>
+                        <li class="group relative hover:text-secondary">
+                            <a href="#" class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300">Pages</a>
+                            <span class="absolute -right-5 top-[29px] text-xs text-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </span>
+                            <!-- Sub-Menu -->
+                            <ul class="pl-5 hidden group-hover:block">
+                                <li>
+                                    <a href="change-pass.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                        Change Password
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="checkout.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                        Checkout
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="order-details.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                        Order Details</a>
+                                </li>
+                                <li>
+                                    <a href="forgot-password.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Forgot
+                                        Password</a>
+                                </li>
+                                <li>
+                                    <a href="my-account.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">My
+                                        Account</a>
+                                </li>
+                                <li>
+                                    <a href="order-com.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Order
+                                        Complete</a>
+                                </li>
+                                <li>
+                                    <a href="error.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Error/404</a>
+                                </li>
+                                <li>
+                                    <a href="productview.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Product
+                                        View</a>
+                                </li>
+                                <li>
+                                    <a href="register.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Register</a>
+                                </li>
+                                <li>
+                                    <a href="shop-cart.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Shop
+                                        Cart</a>
+                                </li>
+                                <li>
+                                    <a href="tracking.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Tracking</a>
+                                </li>
+                                <li>
+                                    <a href="blog-grid.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Blog
+                                        Grid</a>
+                                </li>
+                                <li>
+                                    <a href="blog-view.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Blog
+                                        View</a>
+                                </li>
+                                <li>
+                                    <a href="my-order.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">My
+                                        Order</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="about.html">about us</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="faq.html">Faq</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary font-medium capitalize py-2 lg:my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu Part End Here -->
+
+    <!-- Header Area Start Here -->
+    <header>
+        <div class="header-top bg-white py-3">
+            <div class="container md:flex md:justify-between md:items-center">
+                <!-- Header Top Left -->
+                <div class="header-top-left text-center md:flex text-secondary-light border-b md:border-b-0 mb-2 md:mb-0 pb-2 md:pb-0">
+                    <button class="text-md border-r border-secondary-light pr-5 hover:text-primary-dark ease-in-out duration-300">Language</button>
+                    <button class="text-md ml-6 hover:text-primary-dark ease-in-out duration-300">Currency</button>
+                </div>
+                <!-- Header Top Right -->
+                <div class="header-top-right flex justify-center">
+                    <div class="social-icon text-secondary-light">
+                        <ul class="flex space-x-4 text-md">
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-behance"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End Here -->
+
+    <!-- Logo Area Start Here -->
+    <div class="logo-area sticky lg:static top-0 z-20 py-2 bg-primary">
+        <div class="container md:flex md:justify-between md:items-center">
+            <!-- Logo Left -->
+            <div class="logo-left w-64 m-5 md:mx-0 relative flex items-center mx-auto border-b p-1">
+                <input class="w-full text-white placeholder:text-white focus:outline-none bg-transparent" type="text" placeholder="Search Here">
+                <button class="text-white bg-primary font-bold capitalize absolute right-0 top-0 bottom-0 flex items-center hover:text-primary-dark ease-in-out duration-300">
+                    <span class="text-xl"><i class="las la-search"></i></span>
+                </button>
+            </div>
+            <!-- Logo Icon -->
+            <div class="logo-icon hidden md:block items-center text-white italic text-2xl">
+                <div class="menu-bar text-white flex items-center text-2xl mr-2">
+                    <span class="lg:hidden cursor-pointer menu-open mr-2"><i class="las la-bars"></i></span>
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="logo" class="w-36">
+                    </a>
+                </div>
+
+            </div>
+            <div class="flex justify-between">
+                <!-- Logo Icon -->
+                <div class="logo-icon md:hidden flex items-center text-white italic text-2xl">
+                    <div class="menu-bar text-white flex items-center text-2xl mr-2">
+                        <span class="menu-open cursor-pointer mr-2"><i class="las la-bars"></i></span>
+                        <a href="index.html">
+                            <img src="img/logo.svg" alt="logo" class="w-24">
+                        </a>
+                    </div>
+                </div>
+                <!-- Logo Right -->
+                <div class="logo-right space-x-6">
+                    <div class="logo-right-content flex items-center">
+                        <div class="reg-log hidden lg:block text-md text-white">
+                            <a href="register.html" class="uppercase hover:text-primary-dark ease-in-out duration-300">register</a>
+                            <span>/</span>
+                            <a href="login.html" class="uppercase hover:text-primary-dark ease-in-out duration-300">login</a>
+                        </div>
+                        <div class="lg:hidden flex">
+                            <div class="edit-list text-white mr-3">
+                                <div class="edit-item relative flex items-center gap-x-2">
+                                    <a href="register.html" class="text-2xl hover:text-primary-dark ease-in-out duration-300">
+                                        <i class="las la-edit"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="lock-list text-white mr-3">
+                                <div class="lock-item relative flex items-center gap-x-2">
+                                    <a href="login.html" class="text-2xl hover:text-primary-dark ease-in-out duration-300">
+                                        <i class="las la-lock"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list flex ml-5">
+                            <div class="wish-list text-white mr-3">
+                                <div class="wish-item relative flex items-center cursor-pointer">
+                                    <a href="wishlist.html">
+                                        <span class="text-xl hover:text-primary-dark ease-in-out duration-300"><i class="las la-heart"></i></span>
+                                    </a>
+                                    <span class="text-xs absolute -top-1 -right-3 text-white bg-primary-dark rounded-full h-4 w-4 flex justify-center items-center">0</span>
+                                </div>
+                            </div>
+                            <div class="cart-list text-white">
+                                <div class="wish-item relative flex items-center cursor-pointer ml-2">
+                                    <a href="shop-cart.html">
+                                        <span class="text-xl hover:text-primary-dark ease-in-out duration-300"><i class="las la-cart-plus"></i></span>
+                                    </a>
+                                    <span class="text-xs absolute -top-1 -right-3 bg-primary-dark text-white rounded-full h-4 w-4 flex justify-center items-center">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Logo Area End Here -->
+
+    <!-- Menu Area Start Here -->
+    <div class="menu-area bg-white border-b border-gray-200 sticky top-0 z-20 hidden lg:block">
+        <div class="container">
+            <!-- NAVBAR -->
+            <nav>
+                <ul class="flex justify-center space-x-10">
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Shop</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Butter & Eggs</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="shop.html">Fresh Meat</a>
+                    </li>
+                    <li class="group relative hover:text-secondary">
+                        <a href="#" class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300">Pages</a>
+                        <span class="absolute -right-5 top-[29px] text-xs text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </span>
+                        <!-- Sub-Menu -->
+                        <ul class="absolute top-full left-0 invisible rounded-b-md opacity-0 group-hover:transition-all group-hover:duration-500 mt-4 w-96 py-2 shadow-lg bg-white z-50 group-hover:mt-0 group-hover:opacity-100 group-hover:visible grid grid-cols-2 border-t ">
+                            <li>
+                                <a href="change-pass.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                    Change Password
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkout.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                    Checkout
+                                </a>
+                            </li>
+                            <li>
+                                <a href="order-details.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">
+                                    Order Details</a>
+                            </li>
+                            <li>
+                                <a href="forgot-password.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Forgot
+                                    Password</a>
+                            </li>
+                            <li>
+                                <a href="my-account.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">My
+                                    Account</a>
+                            </li>
+                            <li>
+                                <a href="order-com.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Order
+                                    Complete</a>
+                            </li>
+                            <li>
+                                <a href="error.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Error/404</a>
+                            </li>
+                            <li>
+                                <a href="productview.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Product
+                                    View</a>
+                            </li>
+                            <li>
+                                <a href="register.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Register</a>
+                            </li>
+                            <li>
+                                <a href="shop-cart.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Shop
+                                    Cart</a>
+                            </li>
+                            <li>
+                                <a href="tracking.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Tracking</a>
+                            </li>
+                            <li>
+                                <a href="blog-grid.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Blog
+                                    Grid</a>
+                            </li>
+                            <li>
+                                <a href="blog-view.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">Blog
+                                    View</a>
+                            </li>
+                            <li>
+                                <a href="my-order.html" class="block text-gray-600 text-sm hover:text-secondary font-medium px-4 py-1 hover:bg-gray-50">My
+                                    Order</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="about.html">about us</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="faq.html">Faq</a>
+                    </li>
+                    <li>
+                        <a class="text-secondary font-medium capitalize my-6 xl:text-base text-sm inline-block hover:text-primary-dark ease-in-out duration-300" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Menu Area End Here -->
+    <main>
+        <!-- Banner Part Start Here -->
+        <div style="background-image: url(img/blog/blog-banner.jpg);" class="pt-16 pb-8 bg-cover bg-no-repeat bg-center">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="text-xl sm:text-3xl text-white font-semibold mb-5 capitalize">Blog</h2>
+                    <div class="text-lg text-white">
+                        <a href="index.html" class="capitalize hover:text-primary-dark ease-in-out duration-300">home</a>
+                        <span>/</span>
+                        <a href="blog-grid.html" class="capitalize hover:text-primary-dark ease-in-out duration-300">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner Part End Here -->
+
+        <!-- Blog Part Start Here -->
+        <section class="blog-area bg-white pt-10 pb-10">
+            <div class="container">
+                <!-- Section Head -->
+                <div class="section-heading text-center">
+                    <div class="heading-content">
+                        <h2 class="text-3xl font-medium text-secondary mb-7">Our Blog Posts</h2>
+                    </div>
+                </div>
+                <div class="blog-inner grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mb-10">
+                    <!-- Single Item -->
+                    <div class="blog-single-item">
+                        <div class="blog-img mb-5 font-normal">
+                            <a href="blog-view.html"><img class="w-full h-72 object-cover" src="img/blog/blog-grid1.jpg" alt=""></a>
+                        </div>
+                        <div class="blog-content">
+                            <span class="text-sm text-secondary-light block mb-3">18/6/2022 | Plaza Themes</span>
+                            <a href="blog-view.html">
+                                <h4 class="text-md leading-5 font-medium text-secondary mb-5 hover:text-primary-dark ease-in-out duration-300">
+                                    Celebrity Daughter Opens Up About Having Her Eye Color Changed</h4>
+                            </a>
+                            <div class="btn-more flex items-center cursor-pointer">
+                                <a href="blog-view.html" class="text-md uppercase hover:text-primary-dark ease-in-out duration-300">
+                                    show more
+                                </a>
+                                <a href="blog-view.html">
+                                    <span class=" text-xs h-4 w-4 bg-primary text-white rounded-full flex justify-center items-center ml-2"><i class="las la-play"></i></span>
+                                </a>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="text-sm text-gray-500">01 Jun 2022</span>
+                                <span class="text-sm text-gray-500"> 100k Views </span>
+                                <span class="text-sm text-gray-500"> 4 min read </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="blog-single-item">
+                        <div class="blog-img mb-5 font-normal">
+                            <a href="blog-view.html"><img class="w-full h-72 object-cover" src="img/blog/blog-grid2.jpg" alt=""></a>
+                        </div>
+                        <div class="blog-content">
+                            <span class="text-sm text-secondary-light block mb-3">18/6/2022 | Plaza Themes</span>
+                            <a href="blog-view.html">
+                                <h4 class="text-md leading-5 font-medium text-secondary mb-5 hover:text-primary-dark ease-in-out duration-300">
+                                    Praesent ultricies sapien sed enim elementum ullamcorper.</h4>
+                            </a>
+                            <div class="btn-more flex items-center cursor-pointer">
+                                <a href="blog-view.html" class="text-md uppercase hover:text-primary-dark ease-in-out duration-300">
+                                    show more
+                                </a>
+                                <a href="blog-view.html">
+                                    <span class=" text-xs h-4 w-4 bg-primary text-white rounded-full flex justify-center items-center ml-2"><i class="las la-play"></i></span>
+                                </a>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="text-sm text-gray-500">01 Jun 2022</span>
+                                <span class="text-sm text-gray-500"> 100k Views </span>
+                                <span class="text-sm text-gray-500"> 4 min read </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="blog-single-item">
+                        <div class="blog-img mb-5 font-normal">
+                            <a href="blog-view.html"><img class="w-full h-72 object-cover" src="img/blog/blog-grid3.jpg" alt=""></a>
+                        </div>
+                        <div class="blog-content">
+                            <span class="text-sm text-secondary-light block mb-3">18/6/2022 | Plaza Themes</span>
+                            <a href="blog-view.html">
+                                <h4 class="text-md leading-5 font-medium text-secondary mb-5 hover:text-primary-dark ease-in-out duration-300">
+                                    Consectetur condimentum ipsum, non pellentesque nunc aliquet quis.</h4>
+                            </a>
+                            <div class="btn-more flex items-center cursor-pointer">
+                                <a href="blog-view.html" class="text-md uppercase hover:text-primary-dark ease-in-out duration-300">
+                                    show more
+                                </a>
+                                <a href="blog-view.html">
+                                    <span class=" text-xs h-4 w-4 bg-primary text-white rounded-full flex justify-center items-center ml-2"><i class="las la-play"></i></span>
+                                </a>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="text-sm text-gray-500">01 Jun 2022</span>
+                                <span class="text-sm text-gray-500"> 100k Views </span>
+                                <span class="text-sm text-gray-500"> 4 min read </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="blog-single-item">
+                        <div class="blog-img mb-5 font-normal">
+                            <a href="blog-view.html"><img class="w-full h-72 object-cover" src="img/blog/blog-grid4.jpg" alt=""></a>
+                        </div>
+                        <div class="blog-content">
+                            <span class="text-sm text-secondary-light block mb-3">18/06/2022 | Plaza Themes</span>
+                            <a href="blog-view.html">
+                                <h4 class="text-md leading-5 font-medium text-secondary mb-5 hover:text-primary-dark ease-in-out duration-300">
+                                    Nunc non sapien mi. Phasellus lorem eros, luctus eu nunc eget, facilisis.</h4>
+                            </a>
+                            <div class="btn-more flex items-center cursor-pointer">
+                                <a href="blog-view.html" class="text-md uppercase hover:text-primary-dark ease-in-out duration-300">
+                                    show more
+                                </a>
+                                <a href="blog-view.html">
+                                    <span class=" text-xs h-4 w-4 bg-primary text-white rounded-full flex justify-center items-center ml-2"><i class="las la-play"></i></span>
+                                </a>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="text-sm text-gray-500">16 Jun 2022</span>
+                                <span class="text-sm text-gray-500"> 100k Views </span>
+                                <span class="text-sm text-gray-500"> 4 min read </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="blog-single-item">
+                        <div class="blog-img mb-5 font-normal">
+                            <a href="blog-view.html"><img class="w-full h-72 object-cover" src="img/blog/blog-grid5.jpg" alt=""></a>
+                        </div>
+                        <div class="blog-content">
+                            <span class="text-sm text-secondary-light block mb-3">18/06/2022 | Plaza Themes</span>
+                            <a href="blog-view.html">
+                                <h4 class="text-md leading-5 font-medium text-secondary mb-5 hover:text-primary-dark ease-in-out duration-300">
+                                    Morbi suscipit ullamcorper sapien, Quis gravida purus posuere sit amet.</h4>
+                            </a>
+                            <div class="btn-more flex items-center cursor-pointer">
+                                <a href="blog-view.html" class="text-md uppercase hover:text-primary-dark ease-in-out duration-300">
+                                    show more
+                                </a>
+                                <a href="blog-view.html">
+                                    <span class=" text-xs h-4 w-4 bg-primary text-white rounded-full flex justify-center items-center ml-2"><i class="las la-play"></i></span>
+                                </a>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="text-sm text-gray-500">01 Jun 2022</span>
+                                <span class="text-sm text-gray-500"> 100k Views </span>
+                                <span class="text-sm text-gray-500"> 4 min read </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="blog-single-item">
+                        <div class="blog-img mb-5 font-normal">
+                            <a href="blog-view.html"><img class="w-full h-72 object-cover" src="img/blog/blog-grid6.jpg" alt=""></a>
+                        </div>
+                        <div class="blog-content">
+                            <span class="text-sm text-secondary-light block mb-3">18/06/2022 | Plaza Themes</span>
+                            <a href="blog-view.html">
+                                <h4 class="text-md leading-5 font-medium text-secondary mb-5 hover:text-primary-dark ease-in-out duration-300">
+                                    Ut mauris sapien, laoreet id erat non, tincidunt imperdiet nibh.</h4>
+                            </a>
+                            <div class="btn-more flex items-center cursor-pointer">
+                                <a href="blog-view.html" class="text-md uppercase hover:text-primary-dark ease-in-out duration-300">
+                                    show more
+                                </a>
+                                <a href="blog-view.html">
+                                    <span class=" text-xs h-4 w-4 bg-primary text-white rounded-full flex justify-center items-center ml-2"><i class="las la-play"></i></span>
+                                </a>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="text-sm text-gray-500">01 Jun 2022</span>
+                                <span class="text-sm text-gray-500"> 100k Views </span>
+                                <span class="text-sm text-gray-500"> 4 min read </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="blog-single-item">
+                        <div class="blog-img mb-5 font-normal">
+                            <a href="blog-view.html"><img class="w-full h-72 object-cover" src="img/blog/blog-grid7.jpg" alt=""></a>
+                        </div>
+                        <div class="blog-content">
+                            <span class="text-sm text-secondary-light block mb-3">18/06/2022 | Plaza Themes</span>
+                            <a href="blog-view.html">
+                                <h4 class="text-md leading-5 font-medium text-secondary mb-5 hover:text-primary-dark ease-in-out duration-300">
+                                    Sed eleifend porttitor sapien, nec molestie augue ullamcorper ut.</h4>
+                            </a>
+                            <div class="btn-more flex items-center cursor-pointer">
+                                <a href="blog-view.html" class="text-md uppercase hover:text-primary-dark ease-in-out duration-300">
+                                    show more
+                                </a>
+                                <a href="blog-view.html">
+                                    <span class=" text-xs h-4 w-4 bg-primary text-white rounded-full flex justify-center items-center ml-2"><i class="las la-play"></i></span>
+                                </a>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="text-sm text-gray-500">01 Jun 2022</span>
+                                <span class="text-sm text-gray-500"> 100k Views </span>
+                                <span class="text-sm text-gray-500"> 4 min read </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="blog-single-item">
+                        <div class="blog-img mb-5 font-normal">
+                            <a href="blog-view.html"><img class="w-full h-72 object-cover" src="img/blog/blog-grid8.jpg" alt=""></a>
+                        </div>
+                        <div class="blog-content">
+                            <span class="text-sm text-secondary-light block mb-3">18/06/2022 | Plaza Themes</span>
+                            <a href="blog-view.html">
+                                <h4 class="text-md leading-5 font-medium text-secondary mb-5 hover:text-primary-dark ease-in-out duration-300">
+                                    Maecenas malesuada mauris libero, ultricies vehicula neque rhoncus ut.</h4>
+                            </a>
+                            <div class="btn-more flex items-center cursor-pointer">
+                                <a href="blog-view.html" class="text-md uppercase hover:text-primary-dark ease-in-out duration-300">
+                                    show more
+                                </a>
+                                <a href="blog-view.html">
+                                    <span class=" text-xs h-4 w-4 bg-primary text-white rounded-full flex justify-center items-center ml-2"><i class="las la-play"></i></span>
+                                </a>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="text-sm text-gray-500">16 Jun 2022</span>
+                                <span class="text-sm text-gray-500"> 100k Views </span>
+                                <span class="text-sm text-gray-500"> 4 min read </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="blog-single-item">
+                        <div class="blog-img mb-5 font-normal">
+                            <a href="blog-view.html"><img class="w-full h-72 object-cover" src="img/blog/blog-grid9.jpg" alt=""></a>
+                        </div>
+                        <div class="blog-content">
+                            <span class="text-sm text-secondary-light block mb-3">18/06/2022 | Plaza Themes</span>
+                            <a href="blog-view.html">
+                                <h4 class="text-md leading-5 font-medium text-secondary mb-5 hover:text-primary-dark ease-in-out duration-300">
+                                    Nulla porttitor bibendum viverra.Celebrity Daughter Opens Up.</h4>
+                            </a>
+                            <div class="btn-more flex items-center cursor-pointer">
+                                <a href="blog-view.html" class="text-md uppercase hover:text-primary-dark ease-in-out duration-300">
+                                    show more
+                                </a>
+                                <a href="blog-view.html">
+                                    <span class=" text-xs h-4 w-4 bg-primary text-white rounded-full flex justify-center items-center ml-2"><i class="las la-play"></i></span>
+                                </a>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <span class="text-sm text-gray-500">01 Jun 2022</span>
+                                <span class="text-sm text-gray-500"> 100k Views </span>
+                                <span class="text-sm text-gray-500"> 4 min read </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- pagination area -->
+                <ul class="flex justify-center gap-2 sm:gap-5">
+                    <li>
+                        <a href="#" class="w-10 h-10 bg-gray-50 hover:bg-primary hover:text-white transition duration-500 rounded-full flex justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="w-10 h-10 bg-gray-50 hover:bg-primary hover:text-white transition duration-500 rounded-full flex justify-center items-center">1</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="w-10 h-10 bg-gray-50 hover:bg-primary hover:text-white transition duration-500 rounded-full flex justify-center items-center">2</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="w-10 h-10 bg-gray-50 hover:bg-primary hover:text-white transition duration-500 rounded-full flex justify-center items-center">3</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="w-10 h-10 bg-gray-50 hover:bg-primary hover:text-white transition duration-500 rounded-full flex justify-center items-center">4</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="w-10 h-10 bg-gray-50 hover:bg-primary hover:text-white transition duration-500 rounded-full flex justify-center items-center">5</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="w-10 h-10 bg-gray-50 hover:bg-primary hover:text-white transition duration-500 rounded-full flex justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <!-- pagination area end -->
+            </div>
+        </section>
+        <!-- Blog Part End Here -->
+
+
+    </main>
+    <!-- Footer Part Start Here -->
+    <footer>
+        <div class="footer-area pb-10">
+            <div class="container">
+                <div class="footer-menu">
+                    <nav>
+                        <ul class="flex justify-center space-x-6">
+                            <li>
+                                <a class="text-secondary-dark font-medium capitalize my-6 sm:text-lg text-xs inline-block hover:text-primary-dark ease-in-out duration-300" href="#">home</a>
+                            </li>
+                            <li>
+                                <a class="text-secondary-dark font-medium capitalize my-6 sm:text-lg text-xs inline-block hover:text-primary-dark ease-in-out duration-300" href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a class="text-secondary-dark font-medium capitalize my-6 sm:text-lg text-xs inline-block hover:text-primary-dark ease-in-out duration-300" href="return.html">Return</a>
+                            </li>
+                            <li>
+                                <a class="text-secondary-dark font-medium capitalize my-6 sm:text-lg text-xs inline-block hover:text-primary-dark ease-in-out duration-300" href="contact.html">Contact Us</a>
+                            </li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-icon flex justify-center">
+                    <div class="social-icon text-secondary-light">
+                        <ul class="flex space-x-4 text-lg">
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary-dark ease-in-out duration-300"><i class="lab la-behance"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p class="mt-8 text-center text-base text-secondary-light">Copyright &copy; 2022 Programming Kit,
+                        Inc. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Part End Here -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
